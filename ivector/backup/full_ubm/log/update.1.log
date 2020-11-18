@@ -1,0 +1,11 @@
+# fgmm-global-est --remove-low-count-gaussians=false --min-gaussian-weight=1.0e-04 --verbose=2 exp/ivector_gauss512_dim200/full_ubm/1.ubm "fgmm-global-sum-accs - exp/ivector_gauss512_dim200/full_ubm/1.*.acc |" exp/ivector_gauss512_dim200/full_ubm/2.ubm 
+# Started at Sat Oct 24 15:25:44 +0530 2020
+#
+fgmm-global-est --remove-low-count-gaussians=false --min-gaussian-weight=1.0e-04 --verbose=2 exp/ivector_gauss512_dim200/full_ubm/1.ubm 'fgmm-global-sum-accs - exp/ivector_gauss512_dim200/full_ubm/1.*.acc |' exp/ivector_gauss512_dim200/full_ubm/2.ubm 
+fgmm-global-sum-accs - exp/ivector_gauss512_dim200/full_ubm/1.1.acc 
+LOG (fgmm-global-sum-accs[5.5.707~1-c9d8b]:main():fgmm-global-sum-accs.cc:59) Written stats to -
+WARNING (fgmm-global-est[5.5.707~1-c9d8b]:MleFullGmmUpdate():mle-full-gmm.cc:400) 1084 variances floored in 512 Gaussians.
+LOG (fgmm-global-est[5.5.707~1-c9d8b]:main():fgmm-global-est.cc:78) Overall objective function improvement is 0.119857 per frame over 1.88971e+06 frames.
+LOG (fgmm-global-est[5.5.707~1-c9d8b]:main():fgmm-global-est.cc:88) Written model to exp/ivector_gauss512_dim200/full_ubm/2.ubm
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Oct 24 15:25:44 +0530 2020, elapsed time 0 seconds

@@ -1,0 +1,7 @@
+# gmm-global-to-fgmm exp/ivector_gauss512_dim200/diag_ubm/final.dubm exp/ivector_gauss512_dim200/full_ubm/0.ubm 
+# Started at Sat Oct 24 15:24:28 +0530 2020
+#
+gmm-global-to-fgmm exp/ivector_gauss512_dim200/diag_ubm/final.dubm exp/ivector_gauss512_dim200/full_ubm/0.ubm 
+LOG (gmm-global-to-fgmm[5.5.707~1-c9d8b]:main():gmm-global-to-fgmm.cc:58) Written full GMM to exp/ivector_gauss512_dim200/full_ubm/0.ubm
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Oct 24 15:24:28 +0530 2020, elapsed time 0 seconds
